@@ -18,6 +18,8 @@
 /*eslint-disable*/
 import React from "react";
 import { Link } from "react-router-dom";
+import gitMurad from "../../assets/images/githubMurad.png"
+import linkedMurad from "../../assets/images/linkedinMurad.png"
 // reactstrap components
 import {
   Button,
@@ -43,55 +45,41 @@ class CardsFooter extends React.Component {
             <Row>
               <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
+                  <Button href="https://github.com/MoradAlkhatib">
                     <CardImg
                       alt="..."
-                      src={landing}
+                      src={gitMurad}
                     />
-                  </Link>
+                  </Button>
                 </Card>
               </Col>
               <Col className="mb-5 mb-lg-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
+                  <Button href="http://www.linkedin.com/in/muradkhatib">
                     <CardImg
                       alt="..."
-                      src={profile}
+                      src={linkedMurad}
                     />
-                  </Link>
+                  </Button>
                 </Card>
               </Col>
             </Row>
           </Container>
-          <Container>
-            <Row className="row-grid align-items-center my-md">
+          
+          <Container style={{marginTop:'50px'}}>
+            <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
-                <h3 className="text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
-                </h3>
-                <h4 className="mb-0 font-weight-light">
+                
+                <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
-                <Button
-                  className="btn-icon-only rounded-circle"
-                  color="twitter"
-                  href="https://twitter.com/creativetim"
-                  id="tooltip475038074"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fa fa-twitter" />
-                  </span>
-                </Button>
-                <UncontrolledTooltip delay={0} target="tooltip475038074">
-                  Follow us
-                </UncontrolledTooltip>
+               
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://web.facebook.com/morad.alkhteb"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -100,26 +88,26 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
-                  Like us
+                  Like me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
-                  href="https://dribbble.com/creativetim"
+                  href="http://www.linkedin.com/in/muradkhatib"
                   id="tooltip829810202"
                   target="_blank"
                 >
                   <span className="btn-inner--icon">
-                    <i className="fa fa-dribbble" />
+                    <i className="fa fa-linkedin" />
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Follow us
+                  Follow me
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/MoradAlkhatib"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -133,24 +121,24 @@ class CardsFooter extends React.Component {
               </Col>
             </Row>
             <hr />
-            <Row className="align-items-center justify-content-md-between">
+            <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
-                <div className="copyright">
+                <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
                   <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
+                    href="#"
                     target="_blank"
                   >
-                    Creative Tim
+                    Creative Murad
                   </a>
                   .
                 </div>
               </Col>
               <Col md="6">
-                <Nav className="nav-footer justify-content-end">
+                <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
                       Creative Tim
@@ -158,15 +146,15 @@ class CardsFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://www.creative-tim.com/presentation?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
-                      About Us
+                      About Me
                     </NavLink>
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
+                      href="#"
                       target="_blank"
                     >
                       Blog
@@ -174,7 +162,7 @@ class CardsFooter extends React.Component {
                   </NavItem>
                   <NavItem>
                     <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
+                      href="#"
                       target="_blank"
                     >
                       MIT License
