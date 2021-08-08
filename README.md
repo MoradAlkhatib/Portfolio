@@ -2,7 +2,56 @@
 ## netfliy url :murad-portfolio-357.netlify.app
 
 
+TIME ESTIMATE:
+1- change the name of the site and deploy the url:
 
+Estimate of time needed to complete: 10 min
+
+Start time:8:00
+
+Finish time:8:07
+
+Actual time needed to complete: 7 min
+
+2- remove some unwanted components and change the routes
+
+Estimate of time needed to complete: 15 min
+
+Start time:8:10
+
+Finish time: 8:20
+
+Actual time needed to complete: 10 min
+
+3- replace the pictures and add my personal data
+
+Estimate of time needed to complete: 30 min
+
+Start time:8:20
+
+Finish time:8:50
+
+Actual time needed to complete: 30 min
+
+4- add cards for my projects
+
+Estimate of time needed to complete: 30 min
+
+Start time:8:50
+
+Finish time:9:10
+
+Actual time needed to complete: 20 min
+
+5- adding my links to the nav and footer
+
+Estimate of time needed to complete: 20 min
+
+Start time:9:30
+
+Finish time:10:00
+
+Actual time needed to complete: 30 min
 
 # [Argon Design System React](https://demos.creative-tim.com/argon-design-system-react?ref=adsr-github-readme) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Argon%20Design%20System%20is%20a%20Free%20Bootstrap%204,%20React%20and%20Reactstrap%20Dashboard%20made%20using%20create-react-app%20%E2%9D%A4%EF%B8%8F%0Ahttps%3A//demos.creative-tim.com/argon-design-system-react%20%23react%20%23reactstrap%20%23createreactapp%20%23argon%20%23argondesign%20%23reactkit%20%23argonreact%20%23reactdesign%20%23bootstrap%20%23design%20%23uikit%20%23freebie%20%20via%20%40CreativeTim)
 
